@@ -11,7 +11,10 @@ Se creó un **workflow** en GitHub Actions con tres **jobs**:
 - **test**: Ejecuta pruebas unitarias y de integración (`mvn verify`).
 - **deploy**: Despliega el backend en **Azure App Service**.
 
-Este workflow se activa con cada `pull_request` al repositorio.
+Este workflow se activa con cada `pull_request` al repositorio. <br><br>
+
+![Screenshot 2025-04-03 062937](https://github.com/user-attachments/assets/b600062f-858d-475f-872c-55c592733afd)
+
 
 ### 2. Pruebas Implementadas
 Se agregaron pruebas automatizadas para validar el comportamiento del sistema de reservas:
