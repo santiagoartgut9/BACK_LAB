@@ -13,7 +13,10 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("http://localhost:3000") // Ajusta si React usa otro puerto
+                        .allowedOrigins(
+                                "https://ambitious-river-02ff82c00.6.azurestaticapps.net",  // URL del frontend en Azure
+                                "http://localhost:3000"  // Para pruebas locales
+                        )
                         .allowedMethods("GET", "POST", "PUT", "DELETE")
                         .allowedHeaders("*")
                         .allowCredentials(true);
