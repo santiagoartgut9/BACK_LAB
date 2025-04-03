@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins = "http://localhost:3001") // Permite solicitudes desde el frontend
+@CrossOrigin(origins = {"http://localhost:3001", "https://ambitious-river-02ff82c00.6.azurestaticapps.net"}) 
 @RestController
 @RequestMapping("/laboratorios")
 public class LaboratorioController {
