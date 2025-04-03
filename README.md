@@ -700,6 +700,7 @@ C:.
                 └───laboratorio_reservas
                         LaboratorioReservasApplicationTests.class
 ```
+<br>
 
 ## Implementaciones Realizadas
 
